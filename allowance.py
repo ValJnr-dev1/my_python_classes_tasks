@@ -14,9 +14,9 @@ allowance -= ((allowance *25) / 100)
 
 print(f"my allowance is left ${allowance}")
 allowance -= ((1/3) * allowance)
-print(f"My current balance is {allowance}")
+print(f"My current balance is ${allowance}")
 allowance //= 2
-print(f"my allowance is {allowance}")
+print(f"my allowance is ${allowance}")
 allowance %= 100
-print(f"allowance remain {allowance}")
+print(f"allowance remain ${allowance}")
 
